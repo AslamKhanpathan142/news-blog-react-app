@@ -3,11 +3,11 @@ import NewsItem from './NewsItem'
 
 const NewsBoard = ({category}) => {
     const [article, setArticles] = useState([]);
-   //let API_KEY = 'YOUR API KEY'
+   
 
     useEffect(() => {
       try {
-        let url = `https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=${API_KEY}`;
+       // let url = 'Your API'
         fetch(url).then(response=> response.json()).then(data=> setArticles(data.articles));
         
       } catch (error) {
