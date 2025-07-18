@@ -12,6 +12,9 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+  "netlify": {
+    "functions": "netlify/functions"
+  },
   "dependencies": {
     "bootstrap": "^5.3.3",
     "gh-pages": "^6.3.0",
