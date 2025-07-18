@@ -1,8 +1,19 @@
-# React + Vite
+# 📰 React News Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive news blog website built using React, Vite, and the News API. Users can view the latest news based on selected categories and also search for specific news topics.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Features
+
+- 🗂️ Browse news by category
+- 🔍 Search news by keyword
+- 📱 Fully responsive UI
+- ⚡ Built with Vite for fast performance
+
+## 🚀 Tech Stack
+
+- React
+- Vite
+- CSS Modules
+- News API
+
